@@ -8,7 +8,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <title> our stupid poopy website that michal is making me make </title>
+        <title> yourProtest </title>
         <style>
             body {
                 background-color: #292929;
@@ -39,7 +39,7 @@
     <body>
        
             <nav id = "nav" class="black navbar navbar-expand-lg">
-                <a class="navbar-brand white" href="#">Navigation</a>
+                <a class="navbar-brand white" href="#">YourProtest.com</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -71,51 +71,72 @@
                    
                 </div>
 
-            <div id="accordion">
-                <div class="card">
-                  <div class="card-header blue" id="headingOne">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link black-text" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Tips and Tricks
-                      </button>
-                    </h5>
+            
+              <div id="row1" class="row">
+                <div id="firstaid" class="col-6">
+                  <div class="card" id="firstaidc">
+                    <div class="card-header blue" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+                      <h5 class="mb-0">
+                          First-Aid
+                      </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#firstaidc">
+                      <div class="card-body">
+                        Advice
+                      </div>
+                    </div>
                   </div>
+                </div>
+
+                <div id="protest" class="col-6 ">
+                  <div class = "card" id = "protestc">
+                    <div class="card-header orange collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"> 
+                      <h5 class="mb-0">
+                        Protest
+                      </h5>
+                    </div>
               
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                      Advice
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#protestc">
+                      <div class="card-body">
+                        Advice
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="card-header orange" id="headingTwo">
+              </div>
+            
+
+            <div id="row2" class ="row">
+              <div id = "bring" class="col-6">
+                <div class="card" id = "bringc">
+                  <div class="card-header yellow" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> 
                     <h5 class="mb-0">
-                      <button class="btn btn-link collapsed  black-text" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Information
-                      </button>
+                        What to Bring?
                     </h5>
                   </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#row2">
                     <div class="card-body">
-                      ohoho
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-header yellow" id="headingThree">
+
+                <div id = "education" class="col-6">
+                  <div class = "card" id = "educationc">
+                  <div class="card-header yellow" id="headingThree" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     <h5 class="mb-0">
-                      <button class="btn btn-link collapsed  black-text" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Collapsible Group Item #3
-                      </button>
+                        Education
                     </h5>
                   </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#row2">
                     <div class="card-body">
                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                     </div>
                   </div>
                 </div>
+                </div>
               </div>
+            </div>
         </div>
     </body>
 </html>
